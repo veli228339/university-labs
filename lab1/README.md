@@ -10,7 +10,7 @@
 |---|---|
 | Гипервизор | Oracle VirtualBox 7.2.16 |
 | Гостевая ОС | Debian 13.7.0 «Trixie» (amd64, DVD-образ) |
-| Хост-система | Windows, терминал Git Bash |
+| Хост-система | Windows, терминал |
 
 ---
 
