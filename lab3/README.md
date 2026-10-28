@@ -1,12 +1,6 @@
 [README.md](https://github.com/user-attachments/files/34087129/README.md)
 # Лабораторная работа №3. Управление пакетами, системными сервисами и настройка сети
 
-
-**Выполнил:** *<ФИО, группа>*
-**ОС:** Debian GNU/Linux 13 (Oracle VirtualBox), доступ по SSH с основного ПК (лабораторная работа №1)
-
----
-
 ## Задание 1. Управление пакетами
 
 ### Настройка источников пакетов
@@ -14,11 +8,6 @@
 В файле `/etc/apt/sources.list` оставлены официальные репозитории Debian и добавлено зеркало Яндекса:
 
 ```
-# Официальные репозитории
-deb http://deb.debian.org/debian/ trixie main non-free-firmware
-deb http://security.debian.org/debian-security trixie-security main non-free-firmware
-deb http://deb.debian.org/debian/ trixie-updates main non-free-firmware
-
 # Зеркало (Яндекс)
 deb http://mirror.yandex.ru/debian/ trixie main
 deb http://mirror.yandex.ru/debian/ trixie-updates main
